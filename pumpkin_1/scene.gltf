@@ -1,0 +1,391 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        134.27937316894531,
+        191.44618225097656,
+        134.72348022460938
+      ],
+      "min": [
+        -134.27937316894531,
+        -1.8880142518500505e-29,
+        -134.72348022460938
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 187668,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        0.99984210729598999,
+        1,
+        0.99999409914016724
+      ],
+      "min": [
+        -0.99981606006622314,
+        -1,
+        -0.99976223707199097
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        1,
+        0.97003370523452759,
+        0.99981945753097534,
+        1
+      ],
+      "min": [
+        -0.99999982118606567,
+        -0.99675500392913818,
+        -0.99986982345581055,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        0.99264180660247803,
+        0.94840764999389648
+      ],
+      "min": [
+        0.061538722366094589,
+        0.043381571769714355
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 125112,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        0.99264180660247803,
+        0.94840764999389648
+      ],
+      "min": [
+        0.061538722366094589,
+        0.043381571769714355
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 250224,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        0.99264180660247803,
+        0.94840764999389648
+      ],
+      "min": [
+        0.061538722366094589,
+        0.043381571769714355
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 375336,
+      "componentType": 5126,
+      "count": 15639,
+      "max": [
+        0.99264180660247803,
+        0.94840764999389648
+      ],
+      "min": [
+        0.061538722366094589,
+        0.043381571769714355
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 82302,
+      "max": [
+        15638
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "monsieurmo (https://sketchfab.com/monsieurmo)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/halloween-pumpkin-4484260f38114ad0b78da570afc5116c",
+      "title": "Halloween pumpkin"
+    },
+    "generator": "Sketchfab-6.77.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 329208,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 500448,
+      "byteOffset": 329208,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 375336,
+      "byteOffset": 829656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 250224,
+      "byteOffset": 1204992,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1455216,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Mat.1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Mat.1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Mat.1_emissive.jpeg"
+    },
+    {
+      "uri": "textures/Mat.1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "name": "Mat.1",
+      "normalTexture": {
+        "index": 3,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 0.72839151426803239,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.60048453752384634
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Pumpkin_Mat.1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        -1.6081226229577292e-16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1.6081226229577292e-16,
+        0,
+        1,
+        0,
+        -1.5393448234840568e-14,
+        -2.8421709430404007e-14,
+        -2.8421709430404007e-14,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "8fa5a9c4e5ed408a84db98856280a0ec.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -8.2301383101472937e-16,
+        0,
+        0,
+        8.2301383101472937e-16,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Pumpkin"
+    },
+    {
+      "mesh": 0,
+      "name": "Pumpkin_Mat.1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9728,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 1,
+      "source": 3
+    }
+  ]
+}
+

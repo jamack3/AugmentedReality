@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pumpkin_1
+* source:	https://sketchfab.com/3d-models/pumpkin-1-c6fdc5d187b14eb1ac4907b946601e21
+* author:	nash808 (https://sketchfab.com/nash808)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pumpkin_1" (https://sketchfab.com/3d-models/pumpkin-1-c6fdc5d187b14eb1ac4907b946601e21) by nash808 (https://sketchfab.com/nash808) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
