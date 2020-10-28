@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Multiple Markers Based Example AR.js</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- https://ar-js-org.github.io/AR.js-Docs/-->
+<!--Note to self: In order for this code  to work, the following things are required for the gltf-model:
+The entire folder with scene.bin and scene.gltf must be uploaded to GitHub
+The URL must include https
+The URL must start with https://arjs-cors-proxy.herokuapp.com/
+Check that gltf is working at https://gltf-viewer.donmccurdy.com/
+-->
+
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs> 
+      
+      <!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+
+ <!--3D Model Example-->
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-1.patt'>  
+             <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://jamack3.github.io/AugmentedReality/pumpkin_1/scene.gltf"
+        ></a-entity>
+    
+<!--Image Example (must be a .png; the .jpg just shows up as white square, you can also modify width="200" height="100" added after src="" but before>)-->
+      <a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-2.patt'> 
+      <a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/test.png" width="200" height="100"
+      ></a-image></a-marker>      
+    
+<!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-3.patt'>
+    <a-text value="Say, it's Spoooky Seasonnn!" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text>
+</a-marker>
+      
+<!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-4.patt'>
+ <a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/boo.png" width="200" height="100"
+      ></a-image>  
+</a-marker>
+      
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-5.patt'>
+  <a-text value="Stay Spooky" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text><a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/halloween.png" width="200" height="100"
+      ></a-image>  
+</a-marker>
+      
+      <!--Text example-->
+        <a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-6.patt'>
+          <a-text value="WHAT?" color="#006F71" position="0 0 -1" rotation="-90 0 0"></a-text></a-marker>
+      
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-7.patt'>
+   <a-text value="Is it working?" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text><a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/poem 1.png" width="200" height="100"
+      ></a-image> 
+</a-marker>
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-8.patt'>
+   <a-text value="?????" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text><a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/poem 2.png" width="200" height="100"
+      ></a-image> 
+</a-marker>
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-9.patt'>
+   <a-text value="heyyyyy" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text><a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/poem 3.png" width="200" height="100"
+      ></a-image> 
+</a-marker>
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-10.patt'><a-text value="Creativity is intelligence having fun. - Albert Einstein" color="#006F71" position="-1 0 1" rotation="-90 0 0"></a-text
+  ></a-marker>       
+  
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-11.patt'><a-image 
+               position="0 0 -2" 
+               rotation="-90 0 0" 
+               src="https://github.com/jamack3/AugmentedReality/wzuppp.png" width="200" height="100"
+      ></a-image> 
+</a-marker>
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-12.patt'></a-marker>  
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-13.patt'></a-marker>  
+     <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+<!-- partial -->
+  
+</body>
+</html>
