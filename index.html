@@ -74,13 +74,14 @@ Check that gltf is working at https://gltf-viewer.donmccurdy.com/
       ></a-image> 
 </a-marker>
       
-<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-8.patt'>
-<a-image 
-               position="0 0 0" 
-               rotation="90 0 0" 
-               src="https://jamack3.github.io/AugmentedReality/wzuppp.png"
-      ></a-image>
-</a-marker>
+<!--3D Model Example-->
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-8.patt'>  
+             <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://jamack3.github.io/AugmentedReality/stylized_coffin/scene.gltf"
+        ></a-entity></a-marker>
       
 <a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-9.patt'>
   <a-image 
