@@ -97,8 +97,19 @@ Check that gltf is working at https://gltf-viewer.donmccurdy.com/
                src="https://jamack3.github.io/AugmentedReality/wzuppp.png"
       ></a-image> 
 </a-marker>
-<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-12.patt'></a-marker>  
-<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-13.patt'></a-marker>  
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-12.patt'><a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://jamack3.github.io/AugmentedReality/textures/scene.gltf"
+        ></a-entity></a-marker>
+      
+<a-marker type='pattern' url='https://jamack3.github.io/AugmentedReality/pattern-13.patt'><a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://jamack3.github.io/AugmentedReality/textures/scene.gltf"
+        ></a-entity></a-marker>  
      <a-entity camera></a-entity>
     </a-scene>
   </body>
